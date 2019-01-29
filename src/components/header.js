@@ -32,11 +32,7 @@ const Header = ({ siteTitle }) => (
             </Link>
           </h1>
           <button className="dark-switcher" onClick={theme.toggleDark}>
-            {theme.dark ? (
-              <span>Light mode &#9728;</span>
-            ) : (
-              <span>Dark mode &#9790;</span>
-            )}
+            {theme.dark ? <span>Light mode ☀</span> : <span>Dark mode ☾</span>}
           </button>
         </div>
       </div>
