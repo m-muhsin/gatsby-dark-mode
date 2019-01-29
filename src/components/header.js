@@ -31,13 +31,13 @@ const Header = ({ siteTitle }) => (
               {siteTitle}
             </Link>
           </h1>
-          <div className="dark-switcher" onClick={theme.toggleDark}>
+          <button className="dark-switcher" onClick={theme.toggleDark}>
             {theme.dark ? (
               <span>Light mode &#9728;</span>
             ) : (
               <span>Dark mode &#9790;</span>
             )}
-          </div>
+          </button>
         </div>
       </div>
     )}
